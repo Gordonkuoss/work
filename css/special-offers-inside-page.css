@@ -1,0 +1,372 @@
+*{
+  font-family: 'Barlow', sans-serif;
+}
+/* 主選單區 */
+.header{
+  min-height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../pic/los-angeles.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: rgb(0, 180, 177);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.nav-links ul i{
+  font-size: 40px;
+  color: rgb(241, 241, 241);
+  padding-left: 10px;
+}
+nav .fa{
+  display: none;
+}
+.theme h1{
+  font-size: 70px;
+  color: #fff;
+  font-weight: 600;
+  margin-left: 16%;
+  margin-top: 14%;
+}
+.theme h1::after{
+  content: '';
+  width: 305px;
+  height: 6px;
+  margin-top: 20px;
+  background: #fff;
+  display: block;
+}
+.theme p{
+  font-size: 20px;
+  line-height: 35px;
+  color: rgb(202, 202, 202);
+  margin-left: 16%;
+  margin-top: -1.5%;
+}
+/* footer區 */
+.footer .wrap{
+  max-width: 100%;
+  background-color: rgb(0, 148, 145);
+  margin-top: 150px;
+}
+.footer .box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+.footer .box .item{
+  text-align: left;
+}
+.footer .box .logo{
+  margin-top: 30px;
+  margin: auto;
+}
+.footer .box .logo .icon{
+  text-align: center;
+  margin: 30px;
+}
+.footer .box .logo .icon i{
+  font-size: 30px;
+  color: #fff;
+  padding: 10px;
+} 
+.footer .box .item h3{
+  color: #fff;
+  font-size: 20px;
+}
+.footer .box .item h3::after{
+  content: '';
+  display: block;
+  width: 65px;
+  height: 2px;
+  background: #fff;
+  position: relative;
+  top: 10px;
+}
+.footer .box .item nav{
+  display: flex;
+  flex-direction: column;
+}
+.footer .box .item nav ul li{
+  list-style: none;
+  line-height: 35px;
+}
+.footer .box .item nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.footer .conpyright{
+  text-align: center;
+  letter-spacing: 2px;
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+/*  */
+.disney-block-one .wrap{
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 150px;
+  width: 70%;
+  margin-top: 150px;
+}
+.disney-block-one .item{
+  text-align: justify;
+  line-height: 35px;
+}
+.disney-block-one .item h2{
+  font-size: 40px;
+}
+.disney-block-one .item .he{
+  color: rgb(0, 180, 177);
+}
+.disney-block-one .item .ht{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(70, 70, 70);
+  border-top: 2px solid rgb(70, 70, 70);
+  border-bottom: 2px solid rgb(70, 70, 70);
+}
+.disney-block-one .item .money{
+  color: crimson;
+}
+.disney-block-one .item p{
+  color: rgb(100, 100, 100);
+}
+.disney-block-one button{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.disney-block-one .image{
+  background-image: url(../pic/disney1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+.disney-block-two{
+  max-width: 100%;
+}
+.disney-block-two .wrap{
+  margin-top: 150px;
+}
+.disney-block-two .box{
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.disney-block-two .box .image{
+  width: 390px;
+  margin: 5px;
+}
+.disney-block-two .box .image:nth-child(4){
+  width: 590px;
+}
+.disney-block-two .box .image:nth-child(5){
+  width: 590px;
+}
+.disney-block-two .box .image img{
+  width: 100%;
+}
+
+
+.disney-block-three{
+  max-width: 100%;
+}
+.disney-block-three .wrap{
+  margin-top: 30px;
+}
+.disney-block-three .wrap .box{
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.disney-block-three .wrap .box .item{
+  line-height: 35px;
+  text-align: justify;
+}
+.disney-block-three .wrap .box .item h2{
+  font-size: 30px;
+}
+.disney-block-three .wrap .box .item p{
+  color: rgb(100, 100, 100);
+}
+.disney-block-three .wrap .box .image{
+  width: 1200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.disney-block-three .wrap .box .image img{
+  width: 100%;
+}
+
+/* 手機 */
+@media screen and (max-width: 768px){
+  
+  nav img{
+    width: 120px;
+    margin-top: 10px;
+  }
+  .nav-links ul li{
+    display: block;
+  }
+  .nav-links{
+    position: absolute;
+    background: rgb(0, 180, 177);
+    height: 100vh;
+    width: 220px;
+    top: 0;
+    right: -220px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa{
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul{
+    padding: 30px;
+  }
+  .theme h1{
+   font-size: 60px;
+   margin-top: 170px;
+  }
+  .theme h1::after{
+    width: 260px;
+  }
+  .theme p{
+    font-size: 17px;
+  }
+
+
+/*  */
+  .footer .wrap{
+    margin-top: 60px;
+  }
+  .footer .box{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer .box .item{
+    margin: auto;
+  }
+  .footer .box .item:nth-child(2){
+    position: relative;
+    right: 10px;
+  }
+  .footer .box .item:nth-child(3){
+    position: relative;
+    right: 26px;
+  }
+  .footer .box .item:nth-child(4){
+    position: relative;
+    right: 26px;
+  }
+  .footer .box .item:nth-child(5){
+    position: relative;
+    right: 20px;
+  }
+  .footer .box .item:nth-child(6){
+    position: relative;
+    right: 18px;
+  }
+  .footer .box .item:nth-child(7){
+    position: relative;
+    right: 32px;
+  }
+
+
+  /*  */
+  .disney-block-one .wrap{
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+    width: 90%;
+  }
+  .disney-block-one .image{
+    margin-top: 30px;
+    height: 500px;
+  }
+  .disney-block-two .wrap{
+    margin-top: 30px;
+  }
+  .disney-block-two .wrap .box{
+    width: 92%;
+  }
+  .disney-block-two .box .image{
+    margin: 0.5% 1%;
+  }
+  .disney-block-two .box .image:nth-child(1){
+    width: 48%;
+  }
+  .disney-block-two .box .image:nth-child(2){
+    width: 48%;
+  }
+  .disney-block-two .box .image:nth-child(3){
+    width: 48%;
+  }
+  .disney-block-two .box .image:nth-child(4){
+    width: 48%;
+  }
+  .disney-block-two .box .image:nth-child(5){
+    width: 100%;
+  }
+
+
+  .disney-block-three .wrap .box{
+    width: 92%;
+  }
+  .disney-block-three .wrap .box .image{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>location</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/web-location.css">
+  <link rel="stylesheet" href="css/lightslider.css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/lightslider.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <section class="header">
+    <nav>
+      <a href="home.html"><img src="pic/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="special-offers.html">Special offers</a></li>
+          <li><a href="travel-activity.html">Travel activity</a></li>
+          <li><a href="departure-form.html">Schedule</a></li>
+          <li><a href="about-us.html">About us / Udm</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="theme">
+      <h1 class="t1-anim">Travel around<br>the world</h1>
+      <p class="txt-anim">Travel itinerary in various countries of the world<br>Taiwan、Japan、Europe、United States ...</p>
+    </div>
+  </section>
+
+
+  <section class="small-piece" data-aos="fade-up" data-aos-duration=1000>
+    <div class="box">
+      <h2>Take a trip now</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aut, a ut perferendis mollitia laudantium ipsa illo corrupti sapiente. Deleniti quisquam qui consequuntur! Et totam doloremque, mollitia voluptates, sed unde aliquid ex quibusdam eius impedit vitae officia earum. Facere, dolores?</p>
+    </div>
+  </section>
+
+
+  <section class="tourist-destination">
+    <div class="wrap">
+      <div class="box" data-aos="fade-left" data-aos-duration=2000>
+        <div class="item">
+          <span>Local travel</span>
+          <a href="location-page1.html"><img src="pic/loc6.jpg" alt=""></a>
+          <h2>Taiwan</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="item">
+          <span>Asia travel</span>
+          <a href="location-page1.html"><img src="pic/loc7.jpg" alt=""></a>
+          <h2>Asia</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="item">
+          <span>NEuropean travel</span>
+          <a href="location-page1.html"><img src="pic/loc8.jpg" alt=""></a>
+          <h2>Northern Europe</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="item">
+          <span>EEuropean travel</span>
+          <a href="location-page1.html"><img src="pic/loc9.jpg" alt=""></a>
+          <h2>Eastern Europe</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="item">
+          <span>WEuropean travel</span>
+          <a href="location-page1.html"><img src="pic/loc10.jpg" alt=""></a>
+          <h2>Western Europe</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="popular-destination">
+    <div class="wrap">
+      <div class="title" data-aos="fade-right" data-aos-duration=2000>
+        <h1>Popular <span>destination</span></h2>
+      </div>
+      <div class="box" data-aos="fade-right" data-aos-duration=2000>
+        <div class="item">
+          <div class="image">
+            <h2>City of Los Angeles</h2>
+            <p>Movie attractions</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <h2>Japan</h2>
+            <p>Otaku shelter</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <h2>United States</h2>
+            <p>Disney</p>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <h2>Rome</h2>
+            <p>St. Peter's Basilica</p>
+          </div>
+        </div>
+        <div class="item">
+          <h2>More popular<br>attractions</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum aliquam dolorum totam distinctio quod veniam quae quis natus architecto omnis.</p>
+          <button>More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="carousel">
+    <ul id="autoWidth" class="cs-hidden">
+      <li class="item-a">
+        <div class="image"></div>
+      </li>
+      <li class="item-b">
+        <div class="image"></div>
+        <div class="text"></div>
+      </li>
+      <li class="item-c">
+        <div class="image"></div>
+        <div class="text"></div>
+      </li>
+      <li class="item-d">
+        <div class="image"></div>
+        <div class="text"></div>
+      </li>
+      <li class="item-e">
+        <div class="image"></div>
+        <div class="text"></div>
+      </li>
+    </ul>
+  </section>
+  
+
+  <section class="footer">
+    <div class="wrap">
+      <div class="box">
+        <div class="logo">
+          <img src="pic/logo2.png" alt="">
+          <div class="icon">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="item">
+          <nav>
+            <ul>
+              <h3>Taiwan</h3>
+              <li><a href="#">Northern region</a></li>
+              <li><a href="#">Central Region</a></li>
+              <li><a href="#">Southern region</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item"> 
+          <nav>
+            <ul>
+              <h3>Asia</h3>
+              <li><a href="#">China</a></li>
+              <li><a href="#">Japan</a></li>
+              <li><a href="#">Korea</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item">
+          <nav>
+            <ul>
+              <h3>NE</h3>
+              <li><a href="#">Finland</a></li>
+              <li><a href="#">Denmark</a></li>
+              <li><a href="#">Sweden</a></li>
+              <li><a href="#">Iceland</a></li>
+              <li><a href="#">Norway</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item">
+          <nav>
+            <ul>
+              <h3>EE</h3>
+              <li><a href="#">Germany</a></li>
+              <li><a href="#">Switzerland</a></li>
+              <li><a href="#">Belarus</a></li>
+              <li><a href="#">Ukraine</a></li>
+              <li><a href="#">Estonia</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item">
+          <nav>
+            <ul>
+              <h3>WE</h3>
+              <li><a href="#">United Kingdom</a></li>
+              <li><a href="#">Netherlands</a></li>
+              <li><a href="#">France</a></li>
+              <li><a href="#">Belgium</a></li>
+              <li><a href="#">Ireland</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="item">
+          <nav>
+            <ul>
+              <h3>SE</h3>
+              <li><a href="#">Portugal</a></li>
+              <li><a href="#">Spain</a></li>
+              <li><a href="#">Italy</a></li>
+              <li><a href="#">Greece</a></li>
+              <li><a href="#">Vatican</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="conpyright">
+        ©2021 All Rights Reserved. Designed by Gordon
+      </div>
+    </div>
+  </section>
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-220px";
+    }
+
+    TweenMax.set(".t1-anim", {y:30, opacity:0})
+    TweenMax.to(".t1-anim", 1.5, {y:0, opacity:1});
+    
+    TweenMax.set(".txt-anim", {y:30, opacity:0})
+    TweenMax.to(".txt-anim", 1.5, {y:0, opacity:1});
+
+    $(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth').removeClass('cS-hidden');
+        } 
+    });  
+  });
+    
+    AOS.init();
+    
+  </script>
+  
+</body>
+</html>
