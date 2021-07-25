@@ -142,13 +142,15 @@ nav .fa{
   padding: 20px 0;
 }
 
-
+.departure-table{
+  overflow: hidden;
+}
 .departure-table .wrap{
   width: 100%;
 }
 .departure-table .wrap .box{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-column-gap: 30px;
   width: 80%;
   margin: auto;
@@ -156,6 +158,7 @@ nav .fa{
 }
 .departure-table .wrap .box .item-text{
   width: 85%;
+  margin: 30px auto;
   line-height: 35px;
 }
 .departure-table .wrap .box .item-text h2{
@@ -166,6 +169,10 @@ nav .fa{
 }
 .departure-table .wrap .box .item-text p{
   color: rgb(100, 100, 100);
+}
+.departure-table .wrap .box .item-table{
+  width: 85%;
+  margin: auto;
 }
 .departure-table .wrap .box .item-table table{
   margin: auto;

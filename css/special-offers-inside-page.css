@@ -142,12 +142,15 @@ nav .fa{
 
 
 /*  */
+.disney-block-one{
+  overflow: hidden;
+}
 .disney-block-one .wrap{
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 150px;
-  width: 70%;
+  width: 63%;
   margin-top: 150px;
 }
 .disney-block-one .item{
@@ -189,7 +192,7 @@ nav .fa{
 
 
 .disney-block-two{
-  max-width: 100%;
+  overflow: hidden;
 }
 .disney-block-two .wrap{
   margin-top: 150px;
@@ -216,7 +219,7 @@ nav .fa{
 
 
 .disney-block-three{
-  max-width: 100%;
+  overflow: hidden;
 }
 .disney-block-three .wrap{
   margin-top: 30px;

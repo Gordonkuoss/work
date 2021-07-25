@@ -226,7 +226,9 @@ nav .fa{
   -webkit-filter:brightness(.5);
 }
 
-
+.itinerary-description{
+  overflow: hidden;
+}
 .itinerary-description .wrap{
   width: 100%;
   margin: auto;
@@ -448,7 +450,9 @@ nav .fa{
   height: 100%;
 }
 
-
+.card{
+  overflow: hidden;
+}
 .card .wrap{
   max-width: 100%;
   margin-top: 150px;
@@ -466,7 +470,7 @@ nav .fa{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 5px;
-  width: 80%;
+  width: 70%;
 }
 .card .wrap .box .item{
   width: 90%;

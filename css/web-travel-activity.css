@@ -80,8 +80,12 @@ nav .fa{
 
 
 /*  */
+.festival-introduction{
+  overflow: hidden;
+}
 .festival-introduction .wrap{
-  max-width: 100%;
+  max-width: 90%;
+  margin: auto;
 }
 .festival-introduction .wrap .box{
   margin: auto;
@@ -158,7 +162,7 @@ nav .fa{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 5px;
-  width: 80%;
+  width: 74%;
 }
 .card .wrap .box .item{
   width: 90%;

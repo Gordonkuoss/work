@@ -80,6 +80,9 @@ nav .fa{
 
 
 /* 說明區 */
+.description-area{
+  overflow: hidden;
+}
 .description-area .wrap{
   margin: auto;
 }
@@ -100,6 +103,9 @@ nav .fa{
 
 
 /* 優惠項目 */
+.preferential-items{
+  overflow: hidden;
+}
 .preferential-items .img-box{
   display: grid;
   grid-template-columns: 1fr 1fr;

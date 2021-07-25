@@ -142,7 +142,9 @@ nav .fa{
   padding: 20px 0;
 }
 
-
+.about-us{
+  overflow: hidden;
+}
 .about-us .wrap{
   width: 100%;
   margin: 150px 0;
@@ -215,7 +217,9 @@ nav .fa{
   height: 100%;
 }
 
-
+.about-udm{
+  overflow: hidden;
+}
 .udm-box{
   display: flex;
   text-align: center;
